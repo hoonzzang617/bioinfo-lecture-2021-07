@@ -1,0 +1,7 @@
+
+seq1='ATGTTATAG'
+
+
+
+
+
