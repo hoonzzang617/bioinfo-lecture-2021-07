@@ -13,7 +13,7 @@ seq = ""
 with open("sequence.protein.2.fasta", "r") as fi:
     for line in fi:
         if line.startswith(">"):
-            title = line
+            title = line.strip()
         else:
             seq += line.strip()
 print(f"title: {title}")
